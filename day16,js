@@ -1,0 +1,16 @@
+const mongoose = require('mongoose');
+
+function connectToMongoDB() {
+    const mango = 'mongodb://localhost/mydatabase';
+
+    mongoose.connect(mango);
+
+    mongoose.connection.once('open', () => {
+        console.log('Connected to MongoDB');
+    });
+
+    mongoose.connection.on('error', (error) => {
+        console.error('MongoDB connection error:', error);
+    });
+}
+connectToMongoDB();

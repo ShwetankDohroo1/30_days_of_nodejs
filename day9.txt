@@ -1,0 +1,9 @@
+Express:-
+        provides a robust framework for building web applications, handling routes, and managing middleware.
+Body-parser:-
+        simplifies handling request data, especially when dealing with form submissions or API payloads.
+Socket.io:- 
+        facilitates real-time communication between clients and servers, making it ideal for chat applications and live updates.
+
+
+So, the correct answer is d. All of the above. These modules enhance the development experience and allow developers to create powerful Node.js applications! 🚀
